@@ -1,0 +1,13 @@
+[
+    "allocate",
+    "cwrap",
+    "getValue",
+    "setValue",
+    "intArrayFromString",
+    "stackAlloc",
+    "stackSave",
+    "stackRestore",
+    "stringToUTF8",
+    "lengthBytesUTF8",
+    "FS"
+]

@@ -1,0 +1,40 @@
+{
+    "extends": "airbnb",
+    "parser": "typescript-eslint-parser",
+    "plugins": [
+        "typescript"
+    ],
+    "rules": {
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "quotes": ["error", "double"],
+        "eol-last": 0,
+        "max-len": 0,
+        "comma-dangle": 0,
+        "linebreak-style": 0,
+        "arrow-parens": ["error", "as-needed"],
+        "keyword-spacing": ["error", {
+            "after": true, "overrides": {
+                "for": { "after": false },
+                "if": { "after": false },
+                "catch": { "after": false },
+                "while": { "after": false },
+                "switch": { "after": false }
+            }
+        }],
+        "object-curly-newline": 0,
+        "import/extensions": ["error", {
+            "js": "never",
+            "jsx": "never",
+            "json": "never",
+            "ts": "never",
+            "tsx": "never"
+        }],
+        "no-undef": 0,
+        "typescript/no-unused-vars": "warn"
+    },
+    "settings": {
+        "import/resolver": {
+            "eslint-import-resolver-typescript": true
+        }
+    }
+}
