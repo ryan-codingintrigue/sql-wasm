@@ -1,6 +1,13 @@
 {
   "name": "sql-wasm",
-  "version": "1.1.2",
+  "version": "1.1.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryan-codingintrigue/sql-wasm"
+  },
+  "bugs": {
+		"url" : "https://github.com/ryan-codingintrigue/sql-wasm"
+	},
   "description": "",
   "main": "./dist/cjs/sql-wasm.js",
   "module": "./dist/esm/sql-wasm.js",

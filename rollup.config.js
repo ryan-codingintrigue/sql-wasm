@@ -35,7 +35,7 @@ const shared = {
             sourceDir: path.join(__dirname, "src/native/compiled/"),
             fileName: "../[name][extname]"
         }),
-        babel({ extensions, include: ["src/**/*"] }),
+        babel({ extensions, include: ["src/**/*"], exclude: "src/native/compiled/sqlite3.js" }),
         resolve({ extensions })
     ]
 };
